@@ -1,0 +1,6 @@
+.phone input {
+  background-color: var(--background-color) !important;
+}
+div[class="flag-dropdown "] {
+  background-color: var(--text-disabled) !important;
+}

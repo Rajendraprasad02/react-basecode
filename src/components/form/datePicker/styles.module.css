@@ -1,0 +1,13 @@
+.date {
+  width: 100% !important;
+}
+.date input {
+  background-color: var(--background-color);
+}
+.date input::placeholder {
+  color: var(--text-light);
+}
+
+.label {
+  color: var(--text-color);
+}

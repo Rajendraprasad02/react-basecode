@@ -1,0 +1,26 @@
+.pSteps ol li a {
+  background: transparent !important;
+}
+
+.wrapperClass {
+  box-shadow: var(--shadow-color) 0px 7px 29px 0px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+}
+
+.heading {
+  border-bottom: 2px solid var(--border-color);
+  border-radius: 10px 10px 0 0;
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.bodyClassName {
+  padding-top: 20px;
+}
+
+.buttonWrapper {
+  display: flex;
+  margin-top: 30px;
+}

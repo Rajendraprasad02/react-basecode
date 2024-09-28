@@ -1,0 +1,99 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  padding: 1rem;
+}
+
+.loginContainer,
+.forgotPasswordContainer {
+  width: 100%;
+  max-width: 400px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonGroup .secondaryButton {
+  margin-right: 10px;
+}
+
+.logoContainer h1 {
+  /* margin-bottom: 1rem; */
+  text-align: center;
+  padding: 0;
+}
+
+.inputContainer {
+  margin-bottom: 1rem;
+}
+
+.inputField {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.forgotPassword,
+.signUpText {
+  text-align: right;
+}
+
+.signInButton,
+.primaryButton {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.signInButton {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.primaryButton {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.secondaryButton {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  width: 100%;
+  padding: 0.75rem;
+  /* border: none;
+    border-radius: 5px; */
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.cancelButton {
+  background-color: transparent;
+  color: var(--error-color);
+  width: 100%;
+  padding: 0.75rem;
+  /* border: none;
+    border-radius: 5px; */
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerText {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  text-align: center;
+}

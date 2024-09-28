@@ -1,0 +1,208 @@
+/* styles.module.css */
+
+.topWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2rem;
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  position: relative;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+.bars {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--text-white);
+}
+
+.projectName {
+  font-size: 1.1rem;
+  color: var(--text-white);
+  margin-left: 0.5rem;
+}
+
+.navIconsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: auto;
+}
+
+.navIcons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.iconStyle {
+  cursor: pointer;
+  margin-left: 1rem;
+  color: var(--text-white);
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sideBarOpen {
+  width: 200px;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sideBarClosed {
+  width: 50px;
+  background-color: var(--primary-color);
+  transition: width 0.3s ease;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.iconListWrapper {
+  padding: 0.2rem;
+}
+
+.sideBarList {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.sideBarListClosed {
+  list-style: none;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-left: 1rem;
+  color: var(--text-white);
+}
+
+.textHidden {
+  display: none;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  width: 80%;
+  max-width: 300px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.closeButton {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.sidebarList {
+  padding: 0;
+}
+
+.sidebarListItem {
+  list-style: none;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarText {
+  margin-left: 10px;
+}
+
+.mainClose {
+  width: calc(100% - 50px); /* Adjust width to accommodate closed sidebar */
+  float: right;
+  transition: width 250ms ease-in-out;
+}
+
+.mainOpen {
+  width: calc(100% - 200px); /* Adjust width to accommodate open sidebar */
+  float: right;
+  transition: width 250ms ease-in-out;
+}
+.profileOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileContent {
+  background-color: var(--text-white);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+}
+
+.col20 {
+  flex: 0 0 auto;
+
+  width: 20% !important;
+}
+
+.col10 {
+  flex: 0 0 auto;
+
+  width: 10% !important;
+}
+
+.col80 {
+  flex: 0 0 auto;
+
+  width: 80% !important;
+}
+
+.col90 {
+  flex: 0 0 auto;
+
+  width: 90% !important;
+}
+
+.screens:hover {
+  background-color: var(--primary-hover) !important;
+}
